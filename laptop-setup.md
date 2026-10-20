@@ -1,7 +1,7 @@
 # Laptop Setup (no admin)
 
 Run everything in **Windows PowerShell**, top to bottom, in one window. Open a new terminal at the end so PATH changes apply.
-Config files live in `laptop-setup-parts/` next to this file.
+Config files live in `laptop-setup-parts/` next to this file. AI CLIs: see `claude-setup.md` and `codex-setup.md`.
 
 ```powershell
 # Helper used below: add a folder to the *user* PATH (no admin)
@@ -120,6 +120,7 @@ Copy-Item -Destination .\laptop-setup-parts -Path `
   "$env:APPDATA\herdr\config.toml", `
   "$env:APPDATA\herdr\cmd-clink.cmd", `
   "$env:USERPROFILE\.gitconfig", `
+  "$env:USERPROFILE\.dbt\profiles.yml", `
   "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
 ```
 
