@@ -1,0 +1,9 @@
+onboarding = false
+
+[theme]
+name = "gruvbox"
+auto_switch = false
+
+[terminal]
+# cmd.exe + clink (oh-my-posh prompt), mirroring the Windows Terminal "Command Prompt" profile
+default_shell = 'C:\Users\jaharmon\AppData\Roaming\herdr\cmd-clink.cmd'
